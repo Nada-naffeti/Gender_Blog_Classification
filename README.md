@@ -46,11 +46,11 @@ This project builds a complete machine learning pipeline to classify the gender 
 - Multinomial Naive Bayes
 - Random Forest
 
-**Transformer — DistilBERT**
+**Transformer : DistilBERT**
 - Fine-tuned on blog text with PyTorch
 - AdamW optimizer, cross-entropy loss
 
-**Recurrent Neural Network — BiLSTM**
+**Recurrent Neural Network : BiLSTM**
 - Embedding layer + Bidirectional LSTM
 - Dropout regularization (0.5 / 0.3)
 - Trained with TensorFlow/Keras
