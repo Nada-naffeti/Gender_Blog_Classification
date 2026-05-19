@@ -30,7 +30,7 @@ This project builds a complete machine learning pipeline to classify the gender 
 - Tokenization, stopword removal, lemmatization (NLTK)
 - Vocabulary filtering: words appearing in fewer than 5 documents are discarded
 
-### 3. Feature Engineering — Custom TF-IDF
+### 3. Feature Engineering : Custom TF-IDF
 - Manual implementation of TF-IDF from scratch
 - L2 normalization of feature vectors
 
