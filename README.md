@@ -66,14 +66,14 @@ This project builds a complete machine learning pipeline to classify the gender 
 
 | Model | Type | Accuracy |
 |-------|------|----------|
-| DistilBERT | Transformer | — |
-| BiLSTM | Deep Learning | — |
-| Logistic Regression | Traditional ML | — |
-| Linear SVC | Traditional ML | — |
-| Naive Bayes | Traditional ML | — |
-| Random Forest | Traditional ML | — |
+| **DistilBERT** | Transformer | **82.12%** |
+| Multinomial NB | Traditional ML | 80.24% |
+| Logistic Regression | Traditional ML | 79.20% |
+| Linear SVC | Traditional ML | 78.88% |
+| Random Forest | Traditional ML | 77.96% |
+| BiLSTM | Deep Learning | 75.65% |
 
-> Final values depend on training run. Results are stored in `saved_models/model_comparison_results.csv`.
+> DistilBERT achieves the best accuracy (82.12%), outperforming all traditional ML models. Multinomial Naive Bayes is the strongest traditional baseline at 80.24% with much lower training cost.
 
 ---
 
